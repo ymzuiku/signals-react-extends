@@ -1,0 +1,23 @@
+{
+  "name": "signals-react-extends",
+  "version": "0.1.1",
+  "private": true,
+  "main": "index.ts",
+  "types": "index.ts",
+  "dependencies": {
+    "@preact/signals-react": "^1.2.2",
+    "@types/throttle-debounce": "^5.0.0",
+    "immer": "^9.0.19",
+    "throttle-debounce": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "17.x || 18.x"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@types/use-sync-external-store": "^0.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
